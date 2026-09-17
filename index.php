@@ -34,7 +34,7 @@
       <div class="collapse navbar-collapse" id="menu">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link" href="index.php">HOME</a>
+            <a class="nav-link" href="login.php">HOME</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="index.php#experiencia">ELEGÍ</a>
