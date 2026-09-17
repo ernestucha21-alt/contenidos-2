@@ -1,0 +1,720 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+ font-family: "Outfit", sans-serif;
+}
+
+
+body{
+  background:#d9d9d9;
+}
+
+
+
+
+/* HEADER */
+
+
+
+
+header{
+  background:black;
+}
+
+.logo{
+  width:120px;
+}
+
+
+.navbar{
+  background:black;
+  min-height:80px;
+}
+
+.navbar-brand img{
+    width: 130px;
+}
+
+.nav-link{
+    color: white !important;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.navbar-nav .nav-link{
+  color: white !important;
+}
+
+/* HERO */
+
+
+
+
+.hero{
+  background:white;
+
+
+
+
+  display:flex;
+  align-items:center;
+  gap: 50px;
+
+
+
+
+  padding:20px 60px;
+}
+
+
+
+
+.texto-hero{
+  width:50%;
+}
+
+
+
+
+.texto-hero h1{
+  font-size:60px; 
+  line-height: 1.25;
+  font-weight: 900; 
+}
+
+
+
+
+.texto-hero span{
+  color:#ff6fb5;
+}
+
+
+
+
+.texto-hero p{
+  margin-top:20px;
+  font-size:20px;
+  color:gray;
+}
+
+
+
+
+.helado-principal{
+  width:650px;
+}
+/* FUNCIONA */
+
+
+
+
+.funciona{
+  background:#ececec;
+  padding:40px 40px;
+  text-align:center;
+}
+
+
+
+
+.funciona h2{
+  font-size:45px;
+  margin-bottom:30px;
+  font-weight: 600;
+}
+
+
+
+
+.contenedor-pasos{
+  display:flex;
+  justify-content:center;
+  gap:20px;
+}
+
+
+
+
+.paso{
+  background:white;
+  width:420px;
+  padding:25px;
+}
+
+
+
+
+.numero{
+  width:50px;
+  height:50px;
+  border-radius:50%;
+  color:white;
+
+
+
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+
+
+
+  margin:auto;
+  margin-bottom:15px;
+
+
+
+
+  font-size:25px;
+}
+
+
+
+
+.rosa{
+  background:#ff6fb5;
+}
+
+
+
+
+.violeta{
+  background:#8e5cff;
+}
+
+
+
+
+.azul{
+  background:#4f8cff;
+}
+
+
+
+
+.paso img{
+  width:65px;
+  margin-bottom:15px;
+}
+
+
+
+
+.paso h3{
+  font-size:20px;
+  margin-bottom:10px;
+}
+
+
+
+
+.paso p{
+  font-size:15px;
+  color:gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* EXPERIENCIA */
+
+
+
+
+.experiencia{
+  background:white;
+  padding:40px;
+  text-align:center;
+}
+
+
+
+
+.experiencia h2{
+  font-size: 45px;
+  font-weight: 600;
+}
+
+
+
+
+.contenedor-cards{
+  display:flex;
+  justify-content:center;
+  gap:20px;
+  margin-top:30px;
+}
+
+
+
+
+.card{
+  width:520px;
+  padding:25px;
+
+
+
+
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+
+
+
+.rosa-fondo{
+  background:#ff6fb5;
+}
+
+
+
+
+.violeta-fondo{
+  background:#8e5cff;
+}
+
+
+
+
+.texto-card{
+  text-align:left;
+  color:white;
+}
+
+
+
+
+.texto-card h3{
+  font-size: 30px;
+  margin-bottom:12px;
+  font-weight: 550;
+}
+
+
+
+
+.texto-card p{
+  font-size:15px;
+}
+
+
+
+
+.texto-card button{
+  margin-top:18px;
+  padding:10px 18px;
+  border:none;
+  background:black;
+  color:white;
+}
+
+
+
+
+.card img{
+  width:170px;
+}
+
+
+
+
+/* COLABORACION */
+.colaboracion{
+  background:white;
+  padding:50px;
+  text-align:center;
+}
+
+.banner img{
+  width:100%;
+  display:block;
+}
+
+.formulario{
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.formulario h2{
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+form{
+  max-width: 350px;
+  margin: auto;
+}
+
+.form-control{
+  margin-bottom: 15px;
+  border-radius: 0;
+}
+
+.btn-enviar{
+  background-color: #ff6fb5;
+  color: white;
+  width: 120px;
+  border-radius: 0;
+}
+
+/* FOOTER */
+
+
+
+
+footer{
+  background:black;
+  color:white;
+  padding:30px;
+}
+
+.footer-info{
+  text-align:center;
+}
+
+
+.footer-info img{
+  width:30px;
+  margin-top:10px;
+  margin-bottom:20px;
+}
+
+
+.footer-centro{
+  text-align:center;
+}
+
+
+.footer-centro img{
+  width:150px;
+  margin-bottom:10px;
+}
+
+.footer-centro p{
+  margin-bottom: 40px;
+}
+
+
+
+
+/* SABORES */
+
+
+
+
+.sabores{
+  background:#f2f2f2;
+
+
+
+
+  width:90%;
+  margin:auto;
+
+
+
+
+  text-align:center;
+
+
+
+
+  padding-top:60px;
+  padding-bottom:60px;
+  padding-left:40px;
+  padding-right:40px;
+}
+
+
+
+
+.sabores h1{
+  margin-bottom:70px;
+  font-size:50px;
+}
+
+
+
+
+/* CONTENEDOR */
+
+
+
+
+.contenedor-sabores{
+  display:flex;
+
+
+
+
+  flex-wrap:wrap;
+
+
+
+
+  justify-content:center;
+
+
+
+
+  gap:60px;
+}
+
+
+
+
+
+
+
+
+h1 span{
+  color:#ff6fb5;
+}
+
+
+
+
+/* CADA SABOR */
+
+
+
+
+.sabor{
+  width:200px;
+
+
+
+
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+
+
+
+.sabor img{
+  width:200px;
+  height:200px;
+
+
+
+
+  border-radius:50%;
+
+
+
+
+  object-fit:cover;
+}
+
+
+
+
+.sabor p{
+  margin-top:15px;
+  font-size:12px;
+  font-weight:bold;
+}
+
+.sabores a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+
+/* NOSOTROS */
+.nosotros{
+  background:#f2f2f2;
+  padding: 60px 40px;
+}
+
+.container-nosotros{
+  position: relative;
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
+
+.nosotros h1{
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+
+h2 span{
+  color:#ff6fb5;
+}
+
+
+.nosotros p{
+  font-size: 20px;
+  max-width: 500px;
+  margin: 50px auto;
+  line-height: 2.5;
+}
+
+
+.bolsa{
+  position:absolute;
+  width: 250px;
+  top: 0px;
+  right: -25px;
+}
+
+
+.bochas{
+  position:absolute;
+  width: 250px;
+  top: 200px;
+  left: -30px
+}
+
+
+.pote{
+  position:absolute;
+  width: 275px;
+  top: 380px;
+  right: -30px;
+}
+
+
+.potegrande{
+  position:absolute;
+  width: 325px;
+  top: 550px;
+  left: -55px;
+}
+
+
+.cualidades{
+  background: #DBDBDB;
+  padding: 50px 0px;
+}
+
+@media (max-width: 992px) {
+  .ocultar{
+    display: none;
+  }
+}
+
+
+/* CADA CUALIDAD */
+
+.cualidad img{
+  width: 90px;
+  height: 90px;
+  margin-bottom: 25px;
+}
+
+
+.cualidad h3{
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #121212;
+}
+
+
+.cualidad p{
+    font-size: 22px;
+    color: #121212;
+    line-height: 1.6;
+}
+
+
+/* RESULTADO 1 */
+
+.resultado-uno {
+  background-color: #f4f4f4;
+  padding: 55px 60px 45px;
+}
+
+.resultado-arriba {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 125px;
+}
+
+.resultado-titulo h1 {
+  font-size: 60px;
+  line-height: 1.25;
+  color: #111;
+  font-weight: 800;
+  margin-left: 50px;
+}
+
+.resultado-titulo span {
+  color: #ff78b7;
+}
+
+.foto-personaje {
+  width: 550px;
+  margin-bottom: 50px;
+}
+
+.resultado-texto {
+  background-color: white;
+  text-align: center;
+  padding: 35px 70px;
+  margin-top: 35px;
+}
+
+.resultado-texto h3 {
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.resultado-texto p {
+  font-size: 20px;
+  line-height: 1.8;
+  color: #333;
+}
+
+
+/* NAV */
+
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.navbar .logo {
+  width: 130px;
+}
+
+.nav-link {
+  font-weight: 700;
+  color: #111 !important;
+}
+
+.nav-link:hover {
+  color: #ff78b7 !important;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
