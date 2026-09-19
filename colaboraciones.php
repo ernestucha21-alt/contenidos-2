@@ -59,11 +59,11 @@
       COLABORACIÓN?
     </h2>
 
-    <form>
-      <input type="text" placeholder="NOMBRE" class="form-control" required>
-      <input type="email" placeholder="EMAIL" class="form-control" required>
-      <input type="text" placeholder="PELICULA" class="form-control" required>
-      <button class="btn btn-enviar">ENVIAR</button>
+    <form action="guardar.php" method="POST">
+      <input type="text" name="nombre" placeholder="NOMBRE" class="form-control" required>
+      <input type="email" name="email" placeholder="EMAIL" class="form-control" required>
+      <input type="text" name="pelicula" placeholder="PELICULA" class="form-control" required>
+      <button type="submit" class="btn btn-enviar">ENVIAR</button>
     </form>
   </div>  
 </section>
