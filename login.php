@@ -7,6 +7,7 @@
   <title>Icentity - Log In</title>
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <link rel="stylesheet" href="css/styles.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -48,6 +49,11 @@
           <li class="nav-item">
             <a class="nav-link" href="nosotros.php">NOSOTROS</a>
           </li>
+          <li class="nav-item">
+  <a class="nav-link login-icono" href="login.php" aria-label="Iniciar sesión">
+    <i class="bi bi-person-fill"></i>
+  </a>
+</li>
 
         </ul>
       </div>
