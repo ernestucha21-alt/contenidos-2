@@ -78,8 +78,69 @@
         conecta con un sabor que rompe con lo clásico y deja una marca imposible de olvidar.
       </p>
 
+<div class="opinion-resultado">
+
+  <form action="guardaropinion.php" method="POST">
+
+    <input type="hidden" name="resultado" value="Walter White">
+
+    <div style="
+      display:flex;
+      justify-content:center;
+      gap:30px;
+      margin-top:40px;
+      margin-bottom:20px;
+    ">
+
+      <button
+        type="submit"
+        name="respuesta"
+        value="Me representa"
+        onmouseover="this.style.backgroundColor='#ff6fb5'; this.style.color='white'; this.style.borderColor='#ff6fb5';"
+        onmouseout="this.style.backgroundColor='white'; this.style.color='black'; this.style.borderColor='black';"
+        style="
+          width:230px;
+          height:55px;
+          background-color:white;
+          color:black;
+          border:2px solid black;
+          font-family:'Outfit', sans-serif;
+          font-size:15px;
+          font-weight:600;
+          cursor:pointer;
+        ">
+        ME REPRESENTA
+      </button>
+
+      <button
+        type="submit"
+        name="respuesta"
+        value="No me representa"
+        onmouseover="this.style.backgroundColor='#ff6fb5'; this.style.color='white'; this.style.borderColor='#ff6fb5';"
+        onmouseout="this.style.backgroundColor='white'; this.style.color='black'; this.style.borderColor='black';"
+        style="
+          width:230px;
+          height:55px;
+          background-color:white;
+          color:black;
+          border:2px solid black;
+          font-family:'Outfit', sans-serif;
+          font-size:15px;
+          font-weight:600;
+          cursor:pointer;
+        ">
+        NO ME REPRESENTA
+      </button>
+
     </div>
 
+  </form>
+
+</div>
+
+  </form>
+
+</div>
   </section>
 
 <footer class="footer">

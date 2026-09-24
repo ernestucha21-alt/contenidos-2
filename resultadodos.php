@@ -67,19 +67,48 @@
 
     <div class="resultado-texto">
 
-      <p>
-        La combinación entre crema del cielo y dulce de leche representa perfectamente
-        la dinámica entre Marty McFly y Doc Brown. La crema del cielo transmite una
-        personalidad joven, impulsiva y llamativa, igual que Marty, mientras que el
-        dulce de leche aporta un perfil más clásico, intenso y reconocido, conectado con
-        la inteligencia y el carácter excéntrico de Doc. Aunque son completamente
-        distintos, ambos sabores logran complementarse de manera equilibrada y memorable,
-        reflejando una de las duplas más icónicas del cine gracias a su contraste,
-        química y espíritu de aventura.
-      </p>
+  <p>
+    La combinación entre crema del cielo y dulce de leche representa perfectamente
+    la dinámica entre Marty McFly y Doc Brown. La crema del cielo transmite una
+    personalidad joven, impulsiva y llamativa, igual que Marty, mientras que el
+    dulce de leche aporta un perfil más clásico, intenso y reconocido, conectado con
+    la inteligencia y el carácter excéntrico de Doc. Aunque son completamente
+    distintos, ambos sabores logran complementarse de manera equilibrada y memorable,
+    reflejando una de las duplas más icónicas del cine gracias a su contraste,
+    química y espíritu de aventura.
+  </p>
+
+  <form action="guardaropinion.php" method="POST">
+
+    <input type="hidden" name="resultado" value="Marty McFly y Doc Brown">
+
+    <div style="display:flex; justify-content:center; gap:30px; margin-top:35px;">
+
+      <button
+        type="submit"
+        name="respuesta"
+        value="Me representa"
+        style="width:230px; height:55px; background:white; color:black; border:2px solid black; font-family:'Outfit',sans-serif; font-size:15px; font-weight:600; cursor:pointer;"
+        onmouseover="this.style.backgroundColor='#ff6fb5'; this.style.borderColor='#ff6fb5'; this.style.color='white';"
+        onmouseout="this.style.backgroundColor='white'; this.style.borderColor='black'; this.style.color='black';">
+        ME REPRESENTA
+      </button>
+
+      <button
+        type="submit"
+        name="respuesta"
+        value="No me representa"
+        style="width:230px; height:55px; background:white; color:black; border:2px solid black; font-family:'Outfit',sans-serif; font-size:15px; font-weight:600; cursor:pointer;"
+        onmouseover="this.style.backgroundColor='#ff6fb5'; this.style.borderColor='#ff6fb5'; this.style.color='white';"
+        onmouseout="this.style.backgroundColor='white'; this.style.borderColor='black'; this.style.color='black';">
+        NO ME REPRESENTA
+      </button>
 
     </div>
 
+  </form>
+
+</div>
   </section>
 
 <footer class="footer">
