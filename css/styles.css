@@ -718,3 +718,65 @@ h2 span{
 .navbar-toggler:focus {
   box-shadow: none;
 }
+
+/* LOGIN */
+
+.login-formulario{
+  background:#DBDBDB;
+  padding:85px 20px 100px;
+  text-align:center;
+}
+
+.login-formulario h2{
+  font-size:36px;
+  font-weight:bold;
+  margin-bottom:30px;
+}
+
+.login-subtitulo{
+  font-size:17px;
+  margin-bottom:45px;
+}
+
+.login-formulario form{
+  max-width:350px;
+  margin:auto;
+}
+
+.login-formulario .form-control{
+  margin-bottom:25px;
+  border-radius:0;
+  height:42px;
+  padding:10px 13px;
+}
+
+.login-newsletter{
+  text-align:left;
+  margin-top:30px;
+  margin-bottom:35px;
+}
+
+.login-newsletter .form-check-input{
+  border-radius:2px;
+}
+
+.login-newsletter .form-check-input:checked{
+  background-color:#ff6fb5;
+  border-color:#ff6fb5;
+}
+
+.login-formulario .btn-enviar{
+  display:block;
+  margin:auto;
+  background-color:#ff6fb5;
+  color:white;
+  width:120px;
+  padding:10px;
+  border-radius:0;
+  border:none;
+}
+
+.login-formulario .btn-enviar:hover{
+  background-color:#ff6fb5;
+  color:white;
+}
