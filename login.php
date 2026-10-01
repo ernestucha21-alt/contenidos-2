@@ -1,3 +1,28 @@
+<?php
+session_start();
+
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    $nombre = $_POST['nombre'];
+    $email = $_POST['email'];
+    $contrasena = $_POST['contrasena'];
+
+    include "conexion.php";
+
+    $consulta_alta = "INSERT INTO usuarios VALUES (0, '$nombre', '$email', '$contrasena')";
+    $consulta = mysqli_query($conexion, $consulta_alta);
+
+    if ($consulta) {
+        // ¡ESTO ES LO QUE TE MANDA A LA HOME!
+        header("Location: index.php");
+        exit();
+    } else {
+        echo "Error al guardar el usuario";
+    }
+
+    mysqli_close($conexion);
+}
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -73,7 +98,7 @@
       Ingresá tus datos y formá parte de Icentity.
     </p>
 
-    <form action="enviardatos.php" method="POST">
+    <form action="" method="POST">
 
       <input
         type="text"

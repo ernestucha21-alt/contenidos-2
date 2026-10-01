@@ -1,3 +1,22 @@
+<?php
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    $nombre   = $_POST['nombre'];
+    $email    = $_POST['email'];
+    $pelicula = $_POST['pelicula'];
+
+    include "conexion.php";
+
+    $consulta_alta = "INSERT INTO colaboraciones (Nombre, Email, Pelicula) VALUES ('$nombre', '$email', '$pelicula')";
+    mysqli_query($conexion, $consulta_alta);
+
+    mysqli_close($conexion);
+    
+    // Recarga la misma página limpia
+    header("Location: colaboraciones.php");
+    exit();
+}
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -65,7 +84,7 @@
       COLABORACIÓN?
     </h2>
 
-    <form action="guardar.php" method="POST">
+    <form action="" method="POST">
       <input type="text" name="nombre" placeholder="NOMBRE" class="form-control" required>
       <input type="email" name="email" placeholder="EMAIL" class="form-control" required>
       <input type="text" name="pelicula" placeholder="PELICULA" class="form-control" required>
