@@ -804,3 +804,301 @@ h2 span{
   border-color:#ff6fb5;
 }
 
+
+/* ================================= */
+/* REGISTRO E INICIO DE SESION */
+/* ================================= */
+
+
+/* CONTENEDOR GENERAL */
+
+.registro-formulario,
+.login-formulario {
+
+    background-color: #d9d9d9;
+
+    min-height: calc(100vh - 310px);
+
+    padding: 80px 20px;
+
+    text-align: center;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+}
+
+
+/* TITULOS */
+
+.registro-formulario h2,
+.login-formulario h2 {
+
+    font-family: "Outfit", sans-serif;
+
+    font-size: 36px;
+
+    font-weight: 700;
+
+    color: #212529;
+
+    margin-bottom: 25px;
+
+}
+
+
+/* SUBTITULOS */
+
+.registro-subtitulo,
+.login-subtitulo {
+
+    font-family: "Outfit", sans-serif;
+
+    font-size: 17px;
+
+    color: #212529;
+
+    margin-bottom: 35px;
+
+}
+
+
+/* FORMULARIOS */
+
+.registro-formulario form,
+.login-formulario form {
+
+    max-width: 350px;
+
+    width: 100%;
+
+    margin: 0 auto;
+
+}
+
+
+/* CASILLAS */
+
+.registro-formulario .form-control,
+.login-formulario .form-control {
+
+    width: 100%;
+
+    height: 45px;
+
+    background-color: white;
+
+    border: 1px solid #eeeeee;
+
+    border-radius: 0;
+
+    padding: 12px 15px;
+
+    margin-bottom: 22px;
+
+    font-family: "Outfit", sans-serif;
+
+    font-size: 15px;
+
+    color: #212529;
+
+}
+
+
+/* AL SELECCIONAR UNA CASILLA */
+
+.registro-formulario .form-control:focus,
+.login-formulario .form-control:focus {
+
+    border-color: #ff6fb5;
+
+    box-shadow: 0 0 0 2px rgba(255,111,181,0.15);
+
+    outline: none;
+
+}
+
+
+/* CHECKBOX */
+
+.registro-newsletter {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 10px;
+
+    margin-top: 15px;
+
+    margin-bottom: 30px;
+
+    padding-left: 0;
+
+}
+
+
+.registro-newsletter .form-check-input {
+
+    float: none;
+
+    margin: 0;
+
+    flex-shrink: 0;
+
+}
+
+
+.registro-newsletter .form-check-label {
+
+    font-family: "Outfit", sans-serif;
+
+    font-size: 14px;
+
+    color: #212529;
+
+    text-align: left;
+
+}
+
+
+/* CHECKBOX ROSA */
+
+.registro-newsletter .form-check-input:checked {
+
+    background-color: #ff6fb5;
+
+    border-color: #ff6fb5;
+
+}
+
+
+/* BOTONES */
+
+.registro-formulario .btn-enviar,
+.login-formulario .btn-enviar {
+
+    background-color: #ff6fb5;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 0;
+
+    padding: 12px 25px;
+
+    width: auto;
+
+    min-width: 130px;
+
+    font-family: "Outfit", sans-serif;
+
+    font-size: 15px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: background-color 0.3s ease;
+
+}
+
+
+/* HOVER BOTONES */
+
+.registro-formulario .btn-enviar:hover,
+.login-formulario .btn-enviar:hover {
+
+    background-color: #e6539e;
+
+    color: white;
+
+}
+
+
+/* ENLACES ENTRE REGISTRO Y LOGIN */
+
+.registro-link {
+
+    margin-top: 30px;
+
+    font-family: "Outfit", sans-serif;
+
+    font-size: 15px;
+
+    color: #212529;
+
+}
+
+
+.registro-link a {
+
+    color: #e6539e;
+
+    font-weight: 600;
+
+    text-decoration: none;
+
+    margin-left: 5px;
+
+}
+
+
+.registro-link a:hover {
+
+    text-decoration: underline;
+
+}
+
+
+/* MENSAJES DE ERROR */
+
+.registro-error {
+
+    max-width: 350px;
+
+    margin: 0 auto 25px;
+
+    font-family: "Outfit", sans-serif;
+
+    font-size: 14px;
+
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+
+    .registro-formulario,
+    .login-formulario {
+
+        padding: 65px 20px;
+
+        min-height: 550px;
+
+    }
+
+    .registro-formulario h2,
+    .login-formulario h2 {
+
+        font-size: 30px;
+
+    }
+
+    .registro-formulario form,
+    .login-formulario form {
+
+        max-width: 100%;
+
+    }
+
+}
+
+

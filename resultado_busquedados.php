@@ -1,3 +1,9 @@
+<?php
+session_start();
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -42,11 +48,43 @@
           <li class="nav-item">
             <a class="nav-link" href="nosotros.php">NOSOTROS</a>
           </li>
-          <li class="nav-item">
-  <a class="nav-link login-icono" href="login.php" aria-label="Iniciar sesión">
-    <i class="bi bi-person-fill"></i>
-  </a>
+      <?php if (isset($_SESSION['usuario_id'])) { ?>
+
+<li class="nav-item">
+    <a class="nav-link" href="index.php">
+
+        <?php echo htmlspecialchars($_SESSION['nombre']); ?>
+
+    </a>
 </li>
+
+
+
+
+<li class="nav-item">
+
+<a class="nav-link" href="salir.php">
+SALIR
+</a>
+
+</li>
+
+<?php } else { ?>
+
+<li class="nav-item">
+
+<a class="nav-link login-icono" href="registro.php">
+
+<i class="bi bi-person-fill"></i>
+
+</a>
+
+</li>
+
+<?php } ?>
+
+
+
         </ul>
       </div>
     </div>
