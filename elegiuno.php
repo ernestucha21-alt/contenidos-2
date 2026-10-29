@@ -18,7 +18,7 @@
 <body>
 
   <!-- HEADER -->
-  <header>
+<header>
   <nav class="navbar navbar-expand-lg navbar-dark bg-black">
     <div class="container">
       <a class="navbar-brand" href="index.php">
@@ -30,7 +30,15 @@
       </button>
 
       <div class="collapse navbar-collapse" id="menu">
-        <ul class="navbar-nav ms-auto">
+        <ul class="navbar-nav ms-auto align-items-center">
+          
+          <li class="nav-item me-3">
+            <form action="resultado_busqueda.php" method="POST" class="d-flex">
+                <input type="search" class="form-control form-control-sm me-2" name="busqueda" placeholder="Buscar sabor...">
+                <button class="btn btn-outline-light btn-sm" type="submit">Buscar</button>
+            </form>
+          </li>
+
           <li class="nav-item">
             <a class="nav-link" href="index.php">HOME</a>
           </li>
@@ -44,12 +52,13 @@
             <a class="nav-link" href="nosotros.php">NOSOTROS</a>
           </li>
           <li class="nav-item">
-  <a class="nav-link login-icono" href="login.php" aria-label="Iniciar sesión">
-    <i class="bi bi-person-fill"></i>
-  </a>
-</li>
+            <a class="nav-link login-icono" href="login.php" aria-label="Iniciar sesión">
+              <i class="bi bi-person-fill"></i>
+            </a>
+          </li>
         </ul>
       </div>
+
     </div>
   </nav>
 </header>
