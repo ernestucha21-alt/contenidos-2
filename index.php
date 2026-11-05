@@ -131,7 +131,7 @@ SALIR
 
 
 
-    <img class="col-lg-4 col-md-12 col-sm-12helado-principal" src="img/portada.png" alt="Helado">
+    <img class="col-lg-4 col-md-12 col-sm-12 helado-principal" src="img/portada.png" alt="Helado">
 
 
 

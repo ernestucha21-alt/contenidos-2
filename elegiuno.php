@@ -37,13 +37,7 @@ session_start();
 
       <div class="collapse navbar-collapse" id="menu">
         <ul class="navbar-nav ms-auto align-items-center">
-          
-          <li class="nav-item me-3">
-            <form action="resultado_busqueda.php" method="POST" class="d-flex">
-                <input type="search" class="form-control form-control-sm me-2" name="busqueda" placeholder="Buscar sabor...">
-                <button class="btn btn-outline-light btn-sm" type="submit">Buscar</button>
-            </form>
-          </li>
+    
 
           <li class="nav-item">
             <a class="nav-link" href="index.php">HOME</a>
@@ -117,8 +111,15 @@ SALIR
 </h1>
 
 
+<li class="nav-item me-3 ">
+            <form action="resultado_busqueda.php" method="POST" class="d-flex">
+                <input type="search" class="form-control form-control-sm me-2" name="busqueda" placeholder="Escribir sabor...">
+                <button class="btn btn-outline-dark btn-sm" type="submit">Buscar</button>
+            </form>
+          </li>
 
-
+<br>
+<br>
 
     <div class= "contenedor-sabores">
 

@@ -29,10 +29,7 @@ session_start();
       </button>
 
       <div class="d-flex align-items-center gap-3">
-<form action="resultado_busqueda.php" method="POST" class="d-flex">
-    <input type="search" class="form-control me-2" name="busqueda" placeholder="Buscar sabor...">
-    <button class="btn btn-outline-light" type="submit">Buscar</button>
-</form>
+
       <div class="collapse navbar-collapse" id="menu">
         <ul class="navbar-nav ms-auto">
           
