@@ -106,32 +106,11 @@ SALIR
 
 
 
-    <div class="col-lg-4 col-md-12 col-sm-12 texto-hero">
-
-
-      <h1>
-        DESCUBRÍ QUÉ <br>
-        <span>PERSONAJE</span> <br>
-        SOS SEGÚN TUS <br>
-        SABORES
-      </h1>
-
-
-
-
-      <p>
-        Elegí tu helado y encontrá la identidad que va con vos
-      </p>
-
-
-
-
-    </div>
-
-
-
-
-    <img class="col-lg-4 col-md-12 col-sm-12 helado-principal" src="img/portada.png" alt="Helado">
+    <!-- Video de fondo en autoplay -->
+  <video autoplay loop muted playsinline class="hero-video">
+    <source src="videos/videoindex.mp4" type="video/mp4">
+    Tu navegador no soporta el formato de video.
+  </video>
 
 
 
