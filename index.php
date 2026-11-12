@@ -100,43 +100,11 @@ SALIR
 
 
 
-  <section class="row hero">
-
-
-
-
-
-    <div class="col-lg-4 col-md-12 col-sm-12 texto-hero">
-
-
-      <h1>
-        DESCUBRÍ QUÉ <br>
-        <span>PERSONAJE</span> <br>
-        SOS SEGÚN TUS <br>
-        SABORES
-      </h1>
-
-
-
-
-      <p>
-        Elegí tu helado y encontrá la identidad que va con vos
-      </p>
-
-
-
-
-    </div>
-
-
-
-
-    <img class="col-lg-4 col-md-12 col-sm-12helado-principal" src="img/portada.png" alt="Helado">
-
-
-
-
-  </section>
+<section style="width: 100%; background-color: #e34195; display: flex; justify-content: center; padding: 20px 0;">
+  <video autoplay loop muted playsinline style="width: 100%; max-width: 960px; height: auto; border-radius: 16px; display: block;">
+    <source src="videos/videoindex.mp4" type="video/mp4">
+  </video>
+</section>
 
 
 
